@@ -5,4 +5,12 @@
     <RootNamespace>df_netcore_weboptimizer</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="LigerShark.WebOptimizer.AutoPrefixer" Version="7.1.8-beta" />
+    <PackageReference Include="LigerShark.WebOptimizer.Core" Version="3.0.279" />
+    <PackageReference Include="LigerShark.WebOptimizer.i18n" Version="1.0.16-beta" />
+    <PackageReference Include="LigerShark.WebOptimizer.Sass" Version="3.0.40-beta" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.9" />
+  </ItemGroup>
+
 </Project>

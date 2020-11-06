@@ -2,3 +2,9 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+function foo() {
+    var localizedString = "{{hello}}";
+
+    return localizedString;
+}
